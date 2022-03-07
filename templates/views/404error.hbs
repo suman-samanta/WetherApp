@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   {{>header}}
+  </head>
+  <body>
+    <!-- nav part -->
+    {{>navbar}}
+     <!-- Body part -->
+    <div class="container-fluid main_header custom-body">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+
+            <div class=" col-md-12 col-12 main_header_left float-left align-items-center">  
+                <figure class="errimg">
+                    <img src="images/404.svg" alt="Suman Samanta" class="img-fluid about_img" title="Suman Samanta" >
+                </figure>
+              
+              
+                <p>Welcome to Weather Website</p>
+                <h1> {{errorMsg}} </h1>
+                 <a href="/"  ><button>Go Back</button></a>
+          </div>
+          <!-- Right Side div -->
+       
+
+        </div>
+      </div>
+    </div>    
+  </body>
+
+
+  <!-- Footer part -->
+  {{>footer}}
+</html>
